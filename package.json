@@ -1,0 +1,28 @@
+{
+  "name": "eatdaburger",
+  "version": "1.0.0",
+  "description": "burger app",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajetski07/EatDaBurger.git"
+  },
+  "author": "Adam Jeske",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajetski07/EatDaBurger/issues"
+  },
+  "homepage": "https://github.com/ajetski07/EatDaBurger#readme",
+  "dependencies": {
+    "body": "^5.1.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "method-override": "^3.0.0",
+    "mysql": "^2.17.1",
+    "parser": "^0.1.4"
+  }
+}
